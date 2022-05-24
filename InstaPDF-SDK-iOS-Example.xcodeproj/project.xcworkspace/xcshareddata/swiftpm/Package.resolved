@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "BaseComponents",
+        "repositoryURL": "https://github.com/mmackh/BaseComponents.git",
+        "state": {
+          "branch": "master",
+          "revision": "1d0fc0b79acb7d4d5c0734a8bbab5d82f7f735ea",
+          "version": null
+        }
+      },
+      {
+        "package": "InstaPDF-SDK",
+        "repositoryURL": "https://github.com/InstaPDF-SDK/InstaPDF-SDK-iOS.git",
+        "state": {
+          "branch": "main",
+          "revision": "530899200ddd5bd9051419c9694e6fa0cb46c0c0",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

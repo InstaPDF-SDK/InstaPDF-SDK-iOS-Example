@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22FF4553283CA6E500F41FA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF4552283CA6E500F41FA9 /* AppDelegate.swift */; };
+		22FF4555283CA6E500F41FA9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF4554283CA6E500F41FA9 /* SceneDelegate.swift */; };
+		22FF4557283CA6E500F41FA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF4556283CA6E500F41FA9 /* ViewController.swift */; };
+		22FF455A283CA6E500F41FA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22FF4558283CA6E500F41FA9 /* Main.storyboard */; };
+		22FF455C283CA6E700F41FA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22FF455B283CA6E700F41FA9 /* Assets.xcassets */; };
+		22FF455F283CA6E700F41FA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22FF455D283CA6E700F41FA9 /* LaunchScreen.storyboard */; };
+		22FF458A283CEB9800F41FA9 /* BaseComponents in Frameworks */ = {isa = PBXBuildFile; productRef = 22FF4589283CEB9800F41FA9 /* BaseComponents */; };
+		22FF458C283CF15A00F41FA9 /* ScanPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FF458B283CF15A00F41FA9 /* ScanPreviewViewController.swift */; };
+		22FF4595283D403500F41FA9 /* InstaPDF-SDK in Frameworks */ = {isa = PBXBuildFile; productRef = 22FF4594283D403500F41FA9 /* InstaPDF-SDK */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		22FF457B283CB68000F41FA9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		22FF454F283CA6E500F41FA9 /* InstaPDF-SDK-iOS-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "InstaPDF-SDK-iOS-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22FF4552283CA6E500F41FA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22FF4554283CA6E500F41FA9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		22FF4556283CA6E500F41FA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		22FF4559283CA6E500F41FA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22FF455B283CA6E700F41FA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22FF455E283CA6E700F41FA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22FF4560283CA6E700F41FA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22FF458B283CF15A00F41FA9 /* ScanPreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanPreviewViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22FF454C283CA6E500F41FA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22FF4595283D403500F41FA9 /* InstaPDF-SDK in Frameworks */,
+				22FF458A283CEB9800F41FA9 /* BaseComponents in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22FF4546283CA6E500F41FA9 = {
+			isa = PBXGroup;
+			children = (
+				22FF4551283CA6E500F41FA9 /* InstaPDF-SDK-iOS-Example */,
+				22FF4550283CA6E500F41FA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22FF4550283CA6E500F41FA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22FF454F283CA6E500F41FA9 /* InstaPDF-SDK-iOS-Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22FF4551283CA6E500F41FA9 /* InstaPDF-SDK-iOS-Example */ = {
+			isa = PBXGroup;
+			children = (
+				22FF4552283CA6E500F41FA9 /* AppDelegate.swift */,
+				22FF4554283CA6E500F41FA9 /* SceneDelegate.swift */,
+				22FF4556283CA6E500F41FA9 /* ViewController.swift */,
+				22FF458B283CF15A00F41FA9 /* ScanPreviewViewController.swift */,
+				22FF4558283CA6E500F41FA9 /* Main.storyboard */,
+				22FF455B283CA6E700F41FA9 /* Assets.xcassets */,
+				22FF455D283CA6E700F41FA9 /* LaunchScreen.storyboard */,
+				22FF4560283CA6E700F41FA9 /* Info.plist */,
+			);
+			path = "InstaPDF-SDK-iOS-Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22FF454E283CA6E500F41FA9 /* InstaPDF-SDK-iOS-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22FF4563283CA6E700F41FA9 /* Build configuration list for PBXNativeTarget "InstaPDF-SDK-iOS-Example" */;
+			buildPhases = (
+				22FF454B283CA6E500F41FA9 /* Sources */,
+				22FF454C283CA6E500F41FA9 /* Frameworks */,
+				22FF454D283CA6E500F41FA9 /* Resources */,
+				22FF457B283CB68000F41FA9 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "InstaPDF-SDK-iOS-Example";
+			packageProductDependencies = (
+				22FF4589283CEB9800F41FA9 /* BaseComponents */,
+				22FF4594283D403500F41FA9 /* InstaPDF-SDK */,
+			);
+			productName = "InstaPDF-SDK-iOS-Example";
+			productReference = 22FF454F283CA6E500F41FA9 /* InstaPDF-SDK-iOS-Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22FF4547283CA6E500F41FA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					22FF454E283CA6E500F41FA9 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 22FF454A283CA6E500F41FA9 /* Build configuration list for PBXProject "InstaPDF-SDK-iOS-Example" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22FF4546283CA6E500F41FA9;
+			packageReferences = (
+				22FF4588283CEB9800F41FA9 /* XCRemoteSwiftPackageReference "BaseComponents" */,
+				22FF4593283D403500F41FA9 /* XCRemoteSwiftPackageReference "InstaPDF-SDK-iOS" */,
+			);
+			productRefGroup = 22FF4550283CA6E500F41FA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22FF454E283CA6E500F41FA9 /* InstaPDF-SDK-iOS-Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22FF454D283CA6E500F41FA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22FF455F283CA6E700F41FA9 /* LaunchScreen.storyboard in Resources */,
+				22FF455C283CA6E700F41FA9 /* Assets.xcassets in Resources */,
+				22FF455A283CA6E500F41FA9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22FF454B283CA6E500F41FA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22FF458C283CF15A00F41FA9 /* ScanPreviewViewController.swift in Sources */,
+				22FF4557283CA6E500F41FA9 /* ViewController.swift in Sources */,
+				22FF4553283CA6E500F41FA9 /* AppDelegate.swift in Sources */,
+				22FF4555283CA6E500F41FA9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22FF4558283CA6E500F41FA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22FF4559283CA6E500F41FA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22FF455D283CA6E700F41FA9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22FF455E283CA6E700F41FA9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22FF4561283CA6E700F41FA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22FF4562283CA6E700F41FA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22FF4564283CA6E700F41FA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YNWWNUC3W6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "InstaPDF-SDK-iOS-Example/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allows capture of scans";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mackhag.InstaPDF-SDK-iOS-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22FF4565283CA6E700F41FA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YNWWNUC3W6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "InstaPDF-SDK-iOS-Example/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allows capture of scans";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mackhag.InstaPDF-SDK-iOS-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22FF454A283CA6E500F41FA9 /* Build configuration list for PBXProject "InstaPDF-SDK-iOS-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22FF4561283CA6E700F41FA9 /* Debug */,
+				22FF4562283CA6E700F41FA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22FF4563283CA6E700F41FA9 /* Build configuration list for PBXNativeTarget "InstaPDF-SDK-iOS-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22FF4564283CA6E700F41FA9 /* Debug */,
+				22FF4565283CA6E700F41FA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		22FF4588283CEB9800F41FA9 /* XCRemoteSwiftPackageReference "BaseComponents" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mmackh/BaseComponents.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		22FF4593283D403500F41FA9 /* XCRemoteSwiftPackageReference "InstaPDF-SDK-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/InstaPDF-SDK/InstaPDF-SDK-iOS.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		22FF4589283CEB9800F41FA9 /* BaseComponents */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 22FF4588283CEB9800F41FA9 /* XCRemoteSwiftPackageReference "BaseComponents" */;
+			productName = BaseComponents;
+		};
+		22FF4594283D403500F41FA9 /* InstaPDF-SDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 22FF4593283D403500F41FA9 /* XCRemoteSwiftPackageReference "InstaPDF-SDK-iOS" */;
+			productName = "InstaPDF-SDK";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 22FF4547283CA6E500F41FA9 /* Project object */;
+}
